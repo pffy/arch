@@ -13,12 +13,13 @@ object properties and functions
     + implements extended metapinyin for punctuation, etc.
     + output organized as objects
 
-  + IdxHanyuPinyin
-  + IdxToneMarks
-  + IdxToneMarksIso
-  + IdxToneRemoval
-  + IdxToneFive
-  + IdxTraditionalSimplified - converts ftz to jtz
+  + JSON representation includes:
+    + `IdxHanyuPinyin`
+    + `IdxToneMarks`
+    + `IdxToneMarksIso`
+    + `IdxToneRemoval`
+    + `IdxToneFive`
+    + `IdxTraditionalSimplified` - converts ftz to jtz
 
   + `HanyuPinyin` - converts Chinese characters to pinyin with or without tones
     + tone numbers (for maximum portability)
